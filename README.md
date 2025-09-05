@@ -1,0 +1,45 @@
+📅 Event Reminder CLI
+
+A command-line application for managing events and reminders, built in C++ as part of Data Structures & Algorithms training at CipherSchools.
+
+🚀 Features
+
+➕ Add Event – Name, date (YYYY-MM-DD), and optional notes
+❌ Remove Event – Delete events by name
+📜 View All Events – Sorted by date
+🔍 Search Event – Find an event by name
+✏️ Edit Event – Update event details
+✅ Input Validation – Valid dates & no duplicate names
+
+⚙️ Tech Highlights
+
+Linked List – Dynamic event storage
+Insertion Sort – Maintains chronological order
+Linear Search – Event lookup by name
+OOP & Pointers – Classes, memory management (new/delete)
+Error Handling – Robust input validation
+
+🖥️ Usage
+
+Compile
+g++ -static event_reminder.cpp -o event_reminder.exe
+Run
+./event_reminder.exe
+Menu Options
+Add | Remove | View | Search | Edit | Exit
+
+📂 Project Structure
+
+Event-Reminder-CLI/
+├── event_reminder.cpp    # Source code
+├── event_reminder.exe    # Executable
+└── README.md             # Documentation
+
+🔮 Future Enhancements
+
+Persistent storage (file I/O)
+Event categories & priorities
+Recurring events
+Email / system notifications
+
+✨ Learning Outcomes: Linked lists, dynamic memory management, sorting, searching, OOP, CLI design.
